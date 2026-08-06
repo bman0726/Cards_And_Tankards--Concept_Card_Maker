@@ -187,8 +187,10 @@ textarea {
 }
 
 .keyword {
-    border-bottom: 2px solid white;
-    padding-bottom: 1px;
+    display: inline;
+    text-decoration-line: underline;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 3px;
 }
 
 .emphasis {
