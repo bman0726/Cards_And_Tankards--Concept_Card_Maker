@@ -447,7 +447,9 @@ function downloadCard(){
 
     console.log("Export clicked");
 
-    html2canvas(document.querySelector("#card"))
+    html2canvas(document.querySelector("#card"), {
+        scale: 3
+    })
     .then(canvas=>{
 
         console.log("Canvas created");
