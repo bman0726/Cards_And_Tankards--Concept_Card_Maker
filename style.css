@@ -185,3 +185,12 @@ textarea {
     left: 440px;
     top: 415px;
 }
+
+.keyword {
+    border-bottom: 2px solid white;
+    padding-bottom: 1px;
+}
+
+.emphasis {
+    font-weight: bold;
+}
