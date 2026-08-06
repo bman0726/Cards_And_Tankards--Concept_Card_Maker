@@ -265,7 +265,7 @@ function formatText(text){
 
 text = text.replace(
     /\*(.*?)\*/g,
-    "<b><u>$1</u></b>"
+    '<span class="keyword emphasis">$1</span>'
 );
 
 keywords.forEach(keyword => {
@@ -277,7 +277,7 @@ keywords.forEach(keyword => {
 
     text = text.replace(
         regex,
-        "<u>" + keyword + "</u>"
+        '<span class="keyword">' + keyword + '</span>'
     );
 
 });
